@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_product"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        app:cardBackgroundColor="@color/color_9">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/image_fav_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="6dp"
+                android:background="@null"
+                android:foreground="?attr/selectableItemBackground"
+                android:src="@drawable/ic_baseline_favorite_border_24" />
+
+            <ImageView
+                android:id="@+id/image_product"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_below="@id/image_fav_product"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/medicine3" />
+
+            <TextView
+                android:id="@+id/tv_name_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_product"
+                android:layout_centerHorizontal="true"
+                android:text="@string/multi_vitamins"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_pills_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_name_product"
+                android:layout_centerHorizontal="true"
+                android:text="@string/pills_90"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_final_price_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_pills_product"
+                android:layout_margin="6dp"
+                android:text="@string/final_price_220"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_price_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_pills_product"
+                android:layout_margin="6dp"
+                android:layout_toEndOf="@id/tv_final_price_product"
+                android:text="@string/price_287" />
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Desc_Fragment2">
+
+    <TextView
+        android:id="@+id/tv_product_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="left"
+        android:text="Paracetamol is a common painkiller used to treat aches and pain. It can also be used to reduce a high temperature. \nIt's available combined with other painkillers and anti-sickness medicines. It's also an ingredient in a wide range of cold and flu remedies."
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Desc_Fragment3">
+
+    <TextView
+        android:id="@+id/tv_product_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="left"
+        android:text="A diaper or a nappy is a type of underwear that allows the wearer to urinate or defecate without using a toilet, by absorbing or containing waste products to prevent soiling of outer clothing or the external environment."
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+</FrameLayout>
