@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MedPharma</string>
+    <string name="Google">https://www.google.com</string>
+    <string name="Facebook">https://www.facebook.com/</string>
+    <string name="navigation_open">open navigation drawer</string>
+    <string name="navigation_close">close navigation drawer</string>
+
+    <string name="online_doctor_consultation">Online Doctor Consultation</string>
+    <string name="search">Search</string>
+    <string name="choose_a_category">Choose a category</string>
+    <string name="adults">Adults</string>
+    <string name="children">Children</string>
+    <string name="general_doctor"> General Doctor</string>
+    <string name="dental_care">Dental Care</string>
+    <string name="search_by_health_concern">Search by health concern</string>
+    <string name="choose_consultation_format">Choose consultation format</string>
+    <string name="chat"> Chat</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+
+    <string name="online_pharmacy">Online\nPharmacy</string>
+    <string name="hint_search">Search for drugs...</string>
+    <string name="shop_by_category">Shop by Category</string>
+    <string name="popular_products">Popular Products</string>
+    <string name="consultation">Consultation</string>
+    <string name="medicines">Medicines</string>
+    <string name="health">Health</string>
+    <string name="first_aid">First Aid</string>
+    <string name="omega_3">Omega 3</string>
+    <string name="vitamins">Vitamins</string>
+    <string name="multi_vitamins">Multi Vitamins</string>
+    <string name="pills_90">90 Pills</string>
+    <string name="final_price_220">Rs 220</string>
+    <string name="price_287">Rs 287</string>
+    <string name="test">Test</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="add_to_basket">Add to Basket</string>
+    <string name="info_detail">abc \ndef \nghi \njkl mno pqr stu vwx yz</string>
+
+    <string-array name="states">
+        <item>Select your state</item>
+        <item>Tamil Nadu</item>
+        <item>Kerala</item>
+        <item>Karnataka</item>
+        <item>Andra Pradesh</item>
+        <item>Goa</item>
+        <item>Maharashtra</item>
+        <item>Madhya Pradesh</item>
+        <item>Orissa</item>
+    </string-array>
+
+</resources>

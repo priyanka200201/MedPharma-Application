@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#000000</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_grey">#FAFAFA</color>
+    <color name="very_dark_grey">#383838</color>
+    <color name="dark_grey">#D3D3D3</color>
+    <color name="navy_blue">#000080</color>
+    <color name="dark_blue">#00008B</color>
+    <color name="light_blue">#72BCD4</color>
+    <color name="dark_green">#023020</color>
+    <color name="light_green">#228B22</color>
+    <color name="transparent">#0000ffff</color>
+
+    <color name="red">#FF0000</color>
+    <color name="color_1">#f6f6f4</color>
+    <color name="color_2">#e090c9</color>
+    <color name="color_3">#fbba7b</color>
+    <color name="color_4">#f69382</color>
+    <color name="color_5">#a0cdf9</color>
+    <color name="color_6">#f1a7f2</color>
+    <color name="color_7">#8d88ce</color>
+    <color name="color_8">#7db1fd</color>
+
+    <color name="color_9">#f7d8b1</color>
+    <color name="color_10">#f28066</color>
+
+    <color name="green">#4dd1ad</color>
+    <color name="orange">#ff8559</color>
+    <color name="blueDark">#1983de</color>
+    <color name="Purple">#6c469c</color>
+    <color name="Pink">#e23762</color>
+    <color name="Blue">#0da4af</color>
+    <color name="barBlack">#333333</color>
+    <color name="greenLight">#7dd9bf</color>
+    <color name ="orangelight">#ffaa8b</color>
+    <color name="blueDarkLight">#599dd8</color>
+    <color name="purpleLight">#917bae</color>
+    <color name ="pinklight">#de6b88</color>
+    <color name ="bluelight">#55bcc4</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#FFFFFF</color>
+</resources>
